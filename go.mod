@@ -3,11 +3,11 @@ module github.com/casbin/envoy-authz
 go 1.13
 
 require (
-	github.com/casbin/casbin v1.9.1 // indirect
-	github.com/casbin/casbin/v2 v2.35.0 // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/envoyproxy/go-control-plane v0.9.9 // indirect
-	github.com/gogo/googleapis v1.4.1 // indirect
-	github.com/golang/glog v0.0.0-20210429001901-424d2337a529 // indirect
-	google.golang.org/grpc v1.39.0 // indirect
+	github.com/casbin/casbin v1.9.1
+	github.com/envoyproxy/go-control-plane v0.9.9
+	github.com/gogo/googleapis v1.4.1
+	github.com/google/go-cmp v0.6.0 // indirect
+	golang.org/x/net v0.0.0-20201021035429-f5854403a974
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
+	google.golang.org/grpc v1.39.0
 )
